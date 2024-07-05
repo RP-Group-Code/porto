@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/porto/static/css/main.80d89db5.css",
+    "main.js": "/porto/static/js/main.146a31d2.js",
+    "static/js/232.0b979432.chunk.js": "/porto/static/js/232.0b979432.chunk.js",
+    "static/media/RPstayed.png": "/porto/static/media/RPstayed.70178ae923fd1f0aad0e.png",
+    "static/media/Ramin-k.png": "/porto/static/media/Ramin-k.672cda7cd0248bd6b3a9.png",
+    "static/media/SimponiMobile.png": "/porto/static/media/SimponiMobile.b78634d111c7d5dccf3a.png",
+    "static/media/Rpstore.png": "/porto/static/media/Rpstore.589986ebf8b562f07ef4.png",
+    "static/media/CVnew.pdf": "/porto/static/media/CVnew.ea5b56a9eef1d17c7c9b.pdf",
+    "static/media/Catalog.png": "/porto/static/media/Catalog.86a2c60e81de467657ca.png",
+    "static/media/SIM.jpg": "/porto/static/media/SIM.2e0696de37da63f6951c.jpg",
+    "static/media/UI Porto.jpg": "/porto/static/media/UI Porto.5c81a8c5d8f57a22ed58.jpg",
+    "static/media/stars.png": "/porto/static/media/stars.fb95e3d1302794752cfa.png",
+    "static/media/Texture-background-png,-Picture-405085-honeycomb-background-.png": "/porto/static/media/Texture-background-png,-Picture-405085-honeycomb-background-.28989049a88eff4cdbc6.png",
+    "static/media/MOON.png": "/porto/static/media/MOON.ffb09c6bae6ea6618e1f.png",
+    "static/media/blob-imgbg.svg": "/porto/static/media/blob-imgbg.2aab9976be58924354d270f580aacb9f.svg",
+    "index.html": "/porto/index.html",
+    "main.80d89db5.css.map": "/porto/static/css/main.80d89db5.css.map",
+    "main.146a31d2.js.map": "/porto/static/js/main.146a31d2.js.map",
+    "232.0b979432.chunk.js.map": "/porto/static/js/232.0b979432.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80d89db5.css",
+    "static/js/main.146a31d2.js"
+  ]
+}
