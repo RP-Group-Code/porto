@@ -32,7 +32,7 @@ const Nav = () => {
         <a href="#contact">
           <FaUserAlt />
         </a> */}
-        <Link to="/">
+        <Link to="/Home">
           <ImHome />
           {/* <idv className="home">
             Home

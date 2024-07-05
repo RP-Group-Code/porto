@@ -7,7 +7,7 @@ import Services from "./components/services/Services";
 import Porto from "./components/porto/Porto";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import './home.css';
+import "./home.css";
 
 const Home = () => {
   return (

@@ -18,9 +18,7 @@ const App = () => {
       <Routes>
         <Route path="/porto" exact element={<Home />} />
         <Route path="/tekno" element={<Tekno />} />
-       
       </Routes>
-     
     </BrowserRouter>
   );
 };
