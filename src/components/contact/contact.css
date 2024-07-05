@@ -1,0 +1,106 @@
+.container.contact__container{
+    width:58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 11%;
+}
+a:hover {
+    color: rgb(129, 32, 58) !important;
+}
+.btn-red{
+    border: none !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(253,9,75) !important;
+}
+
+.btn-red:hover{
+    border: none !important;
+    background-color: rgb(253, 9, 21) !important;
+    font-size: 0.9rem;
+    color: rgb(221, 221, 221) !important;
+}
+.alert__succes{
+    color: #fff !important;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#contact{
+    height: 80vh !important;
+}
+#contact .title, .subtitle{
+    text-align: center;
+}
+#contact{
+    padding-top: 2rem !important;
+}
+#contact .subtitle{
+    padding-bottom: 3rem;
+}
+
+.contact__message{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__message:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.icon__contact{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__message a{
+    margin-top: 0.7rem !important;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+/* =======================  FORM ========================= */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: white;
+}
+
+
+/* ====================== SM =========================== */
+@media screen and (max-width: 600px) {
+    .container.contact__container{
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 11%;
+    }
+    .icon__contact{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .tombol{
+        text-align: center;
+    }
+    #contact{
+        padding-top: 3rem !important;
+        height: 130vh !important;
+    }
+  }

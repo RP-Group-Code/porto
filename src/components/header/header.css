@@ -1,0 +1,129 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 20px;
+    color: white;
+}
+#link:hover {
+    color: rgb(129, 32, 58) !important;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.header__container, h4{
+    margin-top: 15px;
+}
+.header__container, h3{
+    margin-top: -10px;
+}
+/* ================= CVM Sosmed ================ */
+.cvm{
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* ================= Header Sosmed ================ */
+.header__sosmed{
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 13rem;
+    z-index: 1;
+}
+
+.info{
+    /* background: linear-gradient(var(--color-primary), transparent) ; */
+    /* background: url(../../assets/blob-imgbg.svg); */
+    /* background-size: 20rem 20rem; */
+    /* background-position: center ;
+    background-size: auto; */
+    /* background-width: 100%; */
+    width: 40rem;
+    height: 70rem;
+    position: absolute;
+    left: calc(50% - 19rem);
+    margin-top: 1.1rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem;
+}
+.bgimg{
+    position: absolute;
+    width: 46rem;
+    margin-top: 4.3rem;
+    left: calc(50% - 22.1rem);
+    z-index: -1;
+}
+
+.nameside{
+    position: absolute;
+    right: 0;
+    bottom: 18rem;
+    transform: rotate(90deg);
+}
+
+/* ============== small device =============== */
+@media screen and (max-width: 600px){
+    header{
+        height: 90vh;
+    }
+    .nameside{
+        position: absolute;
+        right: -5.5rem;
+        bottom: 13rem;
+        z-index: 1;
+        transform: rotate(90deg);
+        font-size: 13px;
+    }
+    .bgimg{
+        position: absolute;
+        width: 28em;
+        margin-top: 7.5rem;
+        left: calc(50% - 13.7rem);
+        z-index: -2;
+    }
+    .info{
+        width: 26rem;
+        position: absolute;
+        left: calc(50% - 12rem);
+        margin-top: 4.4rem;
+        border-radius: 12rem 12rem 0 0;
+        overflow: hidden;
+        padding: 2rem 1.5rem 1.5rem;
+        z-index: -1;
+    }
+    .cvm{
+        margin-top: 2rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .nick{
+        font-size: 1.5rem;
+    }
+    .si{
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+    }
+    .text-light{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .btn{
+        margin-top: 2rem;
+        font-size: .8rem;
+    }
+    .header__sosmed{
+        font-size: 20px;
+        bottom: 7.2rem;
+    }
+}

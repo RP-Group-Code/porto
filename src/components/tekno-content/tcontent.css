@@ -1,0 +1,73 @@
+.tcontent__card {
+    padding-bottom: 3rem;
+    min-height: 30vh;
+    position: relative;
+    top: -35rem;
+}
+
+/* DEBUGING CSS */
+/* *{
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
+    background: rgba(0 100 0 / 0.1) !important;
+} */
+
+.tcontent__card .svg02{
+    z-index: -1;
+    position: relative;
+    top: -32rem;
+}
+.tcontent__card .svg01{
+    left: -5rem !important;
+    top: 3rem !important;
+}
+
+.tcontent__card .svg04{
+    position: relative;
+    top: -51rem;
+}
+
+.card__texperience{
+    background-color: #111a2c;
+    border: none;
+}
+.content__pegunungan{
+    height: 30rem;
+}
+#contentmoon{
+    z-index: -2;
+    width: 100px !important;
+    height: 2rem;
+}
+.react-parallax {
+    padding-top: 5rem;
+    z-index: -2;
+    top: 25rem !important;
+}
+.paralax__moon{
+    left: 15rem;
+}
+.content__moon{
+    position: relative;
+    height: 65vh;
+    width: 10rem;
+}
+.content__stars{
+    position: relative;
+    height: 65vh;
+    width: 10rem;
+}
+
+.react-parallax-bgimage{
+    width: 320px !important;
+    padding-top: 25rem;
+}
+
+.stars .react-parallax img{
+    z-index: 5;
+    width: 100% !important;
+}
+
+.content__texperience .card__texperience .stars .react-parallax  img{
+    z-index: 100 !important;
+}
